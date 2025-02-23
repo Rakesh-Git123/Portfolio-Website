@@ -34,7 +34,6 @@
     height: auto;
 }
 
-
 .Contact .right form{
     display: flex;
     flex-direction: column;
@@ -46,10 +45,10 @@
     padding-left: 17px;
     box-sizing: border-box;
     background-color: rgb(211, 211, 237);
+    font-size: 16px;
 }
 .Contact .right input::placeholder{
-    font-size: 18px;
-    color: black;
+    font-size: 16px;
 }
 .Contact .right form textarea{
     height: 130px;
@@ -60,10 +59,10 @@
     padding-top: 15px;
     box-sizing: border-box;
     background-color: rgb(211, 211, 237);
+    font-size: 16px;
 }
 .Contact .right form textarea::placeholder{
-    font-size: 18px;
-    color: black;
+    font-size: 16px;
 }
 .Contact .right .btn{
     display: flex;
@@ -129,5 +128,8 @@
     }
     .Contact .left img{
         height: 200px;
+    }
+    .shadow__btn{
+        font-size: 12px;
     }
   }
