@@ -3,7 +3,7 @@
 Welcome to my portfolio! This repository contains details about my work, projects, and skills. Feel free to explore and connect with me.
 
 🌐 Live Website
-🔗 Visit My Portfolio
+🔗 https://rakeshdev-portfolio.netlify.app/
 
 🚀 About Me
 I am a passionate developer with expertise in web development, mobile applications, and backend technologies. My portfolio showcases my projects, skills, and experiences in various domains.
