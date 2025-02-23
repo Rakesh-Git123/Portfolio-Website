@@ -9,17 +9,17 @@ Welcome to my portfolio! This repository contains details about my work, project
 I am a passionate developer with expertise in web development, mobile applications, and backend technologies. My portfolio showcases my projects, skills, and experiences in various domains.
 
 🛠️ Technologies & Tools
-Frontend: React.js, HTML, CSS, JavaScript
-Backend: Node.js, Express.js, PHP
-Database: MongoDB, MySQL
+Frontend: React.js, HTML, CSS, JavaScript<br>
+Backend: Node.js, Express.js, PHP<br>
+Database: MongoDB, MySQL<br>
 Other: Git, REST APIs
 
 📂 Featured Projects
 Some of my key projects include:
 
-BlogVerse - A dynamic blog website with user authentication.
-WeatherApp - A real-time weather application using APIs.
-Quiz Application - A quiz system with leaderboard and admin panel.
+BlogVerse - A dynamic blog website with user authentication.<br>
+WeatherApp - A real-time weather application using APIs.<br>
+Quiz Application - A quiz system with leaderboard and admin panel.<br>
 
 📫 Contact Me
 Email: rk11777916@gmail.com
