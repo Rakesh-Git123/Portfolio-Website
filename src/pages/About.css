@@ -1,0 +1,125 @@
+.About {
+    min-height: 75vh;
+    /* background-color: rgb(2, 2, 49); */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 80px;
+}
+
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.About .image {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: conic-gradient(from var(--angle), transparent 80%, red, yellow);
+    animation: spin 2s linear infinite;
+}
+.About img {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+}
+
+@keyframes spin {
+    from {
+        --angle: 0deg;
+    }
+
+    to {
+        --angle: 360deg;
+    }
+}
+
+
+.About .p1 {
+    font-size: 35px;
+    color: aquamarine;
+    position: relative;
+}
+
+.About .p2 {
+    font-size: 17px;
+    line-height: 32px;
+    margin: 20px 0;
+}
+.About .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.About .right{
+    width: 50%;
+}
+
+.About .right button{
+    background-color: #0ef;
+    height: 40px;
+    width: 117px;
+    border-radius: 20px;
+    box-shadow: 0 0 80px cyan;
+    border-color: cyan;
+    cursor: pointer;
+}
+.About .details p{
+    margin-top: 10px;
+}
+.About .details p b{
+    color: cyan;
+}
+
+@media (max-width:1000px){
+    .About{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        padding: 20px 0 0 0 ;
+    }
+    .About .right{
+        text-align: center;
+        width: 100%;
+    }
+    .About .right .p2{
+        padding: 0 20px;
+    }
+}
+
+@media(max-width:600px){
+    .About{
+        padding-bottom: 20px;
+    }
+    .About img{
+        width: 200px;
+        height: 200px;
+    }
+    .About .image{
+        width: 210px;
+        height: 210px;
+    }
+    .About .left .details{
+        font-size: 11px;
+    }
+    .About .p1{
+        font-size: 25px;
+    }
+    .About .p2{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .About .right button{
+        height: 35px;
+        width: 90px;
+    }
+}

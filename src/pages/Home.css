@@ -1,0 +1,153 @@
+.Home{
+    min-height: 75vh;
+    background-color:rgb(2, 2, 49);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+@property --angle{
+    syntax:"<angle>";
+        initial-value:0deg;
+        inherits: false;
+}
+.Home .image{
+    height: 355px;
+    width: 355px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    background-image:conic-gradient(from var(--angle),blue,red,yellow,blue);
+    animation: spin 3s linear infinite;
+}
+@keyframes spin{
+    from{
+        --angle:0deg;
+    }
+    to{
+        --angle:360deg;
+    }
+}
+.Home .home-img{
+    height: 340px;
+    width: 340px;
+    z-index: 2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(2, 2, 49);
+}
+
+
+.Home img{
+    width: 300px;
+}
+
+.Home .about .about1{
+    font-size: 50px;
+    /* font-family: "Roboto", sans-serif; */
+}
+
+.Home .about .about2{
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.Home .about .contacts i{
+    cursor: pointer;
+    font-size: 20px;
+    color:cyan;
+    z-index: 10;
+}
+
+.Home .about .contacts{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.Home .contacts a{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+         
+.Home .about button {
+    background-image: linear-gradient(to right, #c21500 0%, #ffc500  51%, #c21500  100%);
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;          
+    border-radius: 10px;
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+
+  .Home .about button:hover {
+    background-position: right;
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+  /* ...............css for small screens.................... */
+@media only screen and (max-width:600px){
+    .Home{
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        gap: 20px;
+    }
+    .Home .about .about1{
+        font-size: 25px;
+    }
+    .Home .about .about2{
+        font-size: 18px;
+    }
+    .Home .about .about3{
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .Home .about .contacts i{
+        font-size: 26px;
+    }
+    .Home .about button{
+        width: 100px;
+        height: 30px;
+    }
+    .Home .home-img{
+        height: 250px;
+        width: 250px;
+    }
+    .Home img{
+        width: 220px;
+    }
+    .Home .image{
+        width: 260px;
+        height: 260px;
+    }
+    .Home .about .contacts i{
+        font-size: 15px;
+    }
+    .Home .contacts a{
+        height: 30px;
+        width: 30px;
+    }
+}

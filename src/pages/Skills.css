@@ -1,0 +1,349 @@
+.Skills{
+    min-height: 100vh;
+    background-color:rgb(2, 2, 49);
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.Skills .technical{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.Skills .skills-abilities{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.Skills .text-perc .text{
+    font-size: 15px;
+    /* margin: 5px 0; */
+}
+.Skills .tech{
+    width: 40%;
+}
+.Skills .html i{
+    font-size: 20px;
+    color: blue;
+}
+.Skills .text-perc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Skills .html .text-perc{
+    width: 90%;
+    animation: html 1s;
+}
+
+.Skills .crossbar{
+    width: 100%;
+    height: 4px;
+    background-color: white;
+}
+.Skills .html .crossbar-child{
+    height: 100%;
+    width: 90%;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    animation: html 1s;
+}
+
+.Skills .css i{
+    font-size: 20px;
+    color: orange;
+}
+.Skills .css .text-perc{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    animation: css 1s;
+}
+
+.Skills .css .crossbar-child{
+    height: 100%;
+    width: 70%;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    animation: css 1s;
+}
+
+.Skills .javascript i{
+    font-size: 20px;
+    color: yellow;
+}
+.Skills .javascript .text-perc{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    animation: javascript 1s;
+}
+
+.Skills .javascript .crossbar-child{
+    height: 100%;
+    width: 75%;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    animation: javascript 1s;
+}
+
+.Skills .react i{
+    font-size: 20px;
+    color: cyan;
+}
+.Skills .react .text-perc{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    animation: react 1s;
+}
+
+.Skills .react .crossbar-child{
+    height: 100%;
+    width: 80%;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    animation: react 1s;
+}
+
+.Skills .node i{
+    font-size: 20px;
+    color: green;
+}
+.Skills .node .text-perc{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    animation: node 1s;
+}
+
+.Skills .node .crossbar-child{
+    height: 100%;
+    width: 65%;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    animation: node 1s;
+}
+
+.Skills .mongo i{
+    font-size: 20px;
+    color: grey;
+}
+.Skills .mongo .text-perc{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    animation: mongo 1s;
+}
+
+.Skills .mongo .crossbar-child{
+    height: 100%;
+    width: 75%;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    animation: mongo 1s;
+}
+.Skills .java i{
+    font-size: 20px;
+    color: blue;
+}
+.Skills .java .text-perc{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    animation: mongo 1s;
+}
+
+.Skills .java .crossbar-child{
+    height: 100%;
+    width: 75%;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    animation: mongo 1s;
+}
+
+@keyframes html{
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+@keyframes css{
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+@keyframes javascript{
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+@keyframes react{
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+@keyframes node{
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 65%;
+    }
+}
+@keyframes mongo{
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.soft-skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.container{
+    width: 108px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.circular-progress{
+    position: relative;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background:conic-gradient(#0ef var(--angle), #ededed 0deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circular-progress::before{
+    content: "";
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #f0ff;
+}
+
+.circular-progress1{
+    animation: anim1 1s linear forwards;
+}
+.circular-progress2{
+    animation: anim2 1s linear forwards;
+}
+.circular-progress3{
+    animation: anim3 1s linear forwards;
+}
+.circular-progress4{
+    animation: anim4 1s linear forwards;
+}
+
+.progress-value{
+    position: relative;
+}
+
+@keyframes anim1{
+    from {
+        --angle: 0deg;
+    }
+
+    to {
+        --angle: 252deg;
+    }
+}
+@keyframes anim2{
+    from {
+        --angle: 0deg;
+    }
+
+    to {
+        --angle: 288deg;
+    }
+}
+@keyframes anim3{
+    from {
+        --angle: 0deg;
+    }
+
+    to {
+        --angle: 270deg;
+    }
+}
+@keyframes anim4{
+    from {
+        --angle: 0deg;
+    }
+
+    to {
+        --angle: 252deg;
+    }
+}
+
+@media(max-width:600px){
+    .Skills .skills-abilities{
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+    .Skills .tech{
+        width: 70%;
+    }
+    .Skills .technical .text{
+        font-size: 11px;
+    }
+    .Skills .perc{
+        font-size: 11px;
+    }
+
+    .circular-progress{
+        height: 70px;
+        width: 70px;
+    }
+    
+    .circular-progress::before{
+        height: 60px;
+        width: 60px;
+    }
+    .soft-skills{
+        gap: 10px;  
+        padding: 0 30px;
+        margin-top: 30px;
+    }
+    .container{
+        padding-top: 20px;
+    }
+
+    .Skills .soft-skills .text{
+        font-size: 11px;
+    }
+}
+

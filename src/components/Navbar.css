@@ -1,0 +1,94 @@
+.Navbar{
+    color: white;
+}
+.Navbar nav{
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 13%;
+}
+
+.Navbar nav .logo p{
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Navbar nav .logo span{
+    color: red;
+}
+.Navbar nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    z-index: 3;  
+}
+.Navbar nav ul li{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 17px;
+}
+.Navbar nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.Navbar nav ul li hr{
+    color: aqua;
+    height: 2px;
+    background-color: aqua;
+}
+.Navbar nav ul i{
+    display: none;
+}
+.Navbar nav .menu{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+/* ...............css for small screens.................... */
+@media only screen and (max-width:800px){
+    .Navbar nav{
+        padding: 0 12%;
+    }
+    .Navbar nav .menu{
+        display: block;
+    }
+    .Navbar nav ul{
+        background-color:rgb(8, 102, 180);
+        height: 100vh;
+        width: 180px;
+        display: block;
+        position: fixed;
+        right: -180px;
+        top: 0;
+        padding-top: 50px;   
+        transition: 0.5s;
+       
+    }
+    .Navbar ul li{
+        margin: 25px;
+    }
+    .Navbar nav ul i{
+        position: absolute;
+        display: block;
+        font-size: 25px;
+        left: 25px;
+        top: 25px;
+    
+    }
+    .Navbar nav .logo p{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .Navbar nav ul li a{
+        font-weight: bold;
+    }
+    .Navbar nav ul li a hr{
+        width: 50px;
+    }
+}

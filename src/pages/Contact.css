@@ -1,0 +1,133 @@
+.Contact{
+    min-height: 75vh;
+    color: white;
+    padding-top: 25px;
+}
+.Contact .contact-top{
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 35px;
+}
+.Contact .main{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.Contact .right{
+    width: 35%;
+    height: 100%;
+    padding: 30px 40px 0px 40px;
+    box-sizing: border-box;
+    
+}
+.Contact .left{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Contact .left img{
+    height: 100%;
+    height: auto;
+}
+
+
+.Contact .right form{
+    display: flex;
+    flex-direction: column;
+}
+.Contact .right form input{
+    height: 48px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-left: 17px;
+    box-sizing: border-box;
+    background-color: rgb(211, 211, 237);
+}
+.Contact .right input::placeholder{
+    font-size: 18px;
+    color: black;
+}
+.Contact .right form textarea{
+    height: 130px;
+    margin-bottom: 20px;
+    resize: none;
+    border-radius: 5px;
+    padding-left: 17px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    background-color: rgb(211, 211, 237);
+}
+.Contact .right form textarea::placeholder{
+    font-size: 18px;
+    color: black;
+}
+.Contact .right .btn{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.shadow__btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    cursor: pointer;
+  }
+  
+  .shadow__btn {
+    background: rgb(0,140,255);
+    box-shadow: 0 0 25px rgb(0,140,255);
+  }
+  
+  .shadow__btn:hover {
+    box-shadow: 0 0 5px rgb(0,140,255),
+                0 0 25px rgb(0,140,255),
+                0 0 50px rgb(0,140,255),
+                0 0 100px rgb(0,140,255);
+  }
+
+  @media(max-width:1200px){
+    .Contact .main{
+        flex-direction: column;
+    }
+    .Contact .right{
+        width: 60%;
+        min-width: 300px;
+    }
+    .Contact .left img{
+        height: 250px;
+    }
+    
+  }
+
+  @media(max-width:600px){
+    
+    .Contact .main .right{
+        padding: 0;
+    }
+    .Contact .right form input{
+        height: 40px;
+        
+    }
+    .Contact .right form textarea{
+        height: 110px;
+    }
+    .Contact .right form input::placeholder{
+        font-size: 15px;
+    }
+    .Contact .right form textarea::placeholder{
+        font-size: 15px;
+    }
+    .Contact .left img{
+        height: 200px;
+    }
+  }
