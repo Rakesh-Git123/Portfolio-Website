@@ -9,22 +9,22 @@ const projectData=[
         name:"Blog Website",
         description:"This is a  blog website, built with React, Express, Node.js, and MongoDB, allows users to create, read, update, and delete blog posts with images, comments, and authentication features",
         image:image1,
-        view:"pending",
-        code:"pending"
+        view:"#",
+        code:"#"
     },
     {
         name:"Personal Portfolio",
         description:"I have built a personal portfolio using React to showcase my skills, projects, and experience. It features a modern design, smooth animations, and a responsive layout for a great user experience",
         image:image2,
-        view:"pending",
-        code:"pending"
+        view:"https://rakeshdev-portfolio.netlify.app/",
+        code:"https://github.com/Rakesh-Git123/Portfolio-Website"
     },
     {
         name:"Task Manager",
         description:"I have developed a Task Manager using React, Node.js, Express, and MongoDB. It allows users to create, update, delete, and track tasks efficiently with authentication and a user-friendly interface",
         image:image3,
-        view:"pending",
-        code:"pending"
+        view:"#",
+        code:"#"
     },
     {
         name:"WeatherApp",
@@ -37,7 +37,7 @@ const projectData=[
         name:"Tic-Tac-Toe Game",
         description:"I have developed a Tic Tac Toe game using React. It features an interactive UI, real-time gameplay, and dynamic win detection, providing a fun and engaging experience for players",
         image:image5,
-        view:"pending",
+        view:"#",
         code:"https://github.com/Rakesh-Git123/Tic-Tac-Toe"
     },
 ]
