@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./Skills.css"
 const Skills = () => {
+  useEffect(() => {
+    document.title = "Skills - Rakesh's Portfolio";
+  }, []);
   return (
     <div className='Skills'>
       <p className='skills-abilities' style={{ textAlign: "center" }}> <i class="fa-solid fa-laptop-code"></i> Skills & <span style={{ color: "yellow" }}>Abilities</span></p>

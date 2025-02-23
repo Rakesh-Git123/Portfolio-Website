@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./Project.css"
 import projectData from '../data/projectData'
 
 const Project = () => {
+  useEffect(() => {
+    document.title = "Project - Rakesh's Portfolio";
+  }, []);
 
   return (
     <div className='Projects'>

@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./About.css"
 import MyImage from "../images/myphoto.jpg";
 import Resume from "../Resume/RakeshCV.pdf"
 
 const About = () => {
+  useEffect(() => {
+    document.title = "About - Rakesh's Portfolio";
+  }, []);
   return (
     <div className='About'>
       <div className="left">

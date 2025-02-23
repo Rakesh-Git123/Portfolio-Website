@@ -18,7 +18,7 @@ const Navbar = () => {
                     <li><NavLink style={{color:location.pathname==='/'?'cyan':'white'}} to="/">Home {location.pathname==='/'?<hr/>:<></>}</NavLink></li>
                     <li><NavLink style={{color:location.pathname==='/about'?'cyan':'white'}} to="/about">About {location.pathname==='/about'?<hr/>:<></>}</NavLink></li>
                     <li><NavLink style={{color:location.pathname==='/skills'?'cyan':'white'}} to="/skills">Skills {location.pathname==='/skills'?<hr/>:<></>}</NavLink></li>
-                    <li><NavLink style={{color:location.pathname==='/project'?'cyan':'white'}} to="/project">Project {location.pathname==='/project'?<hr/>:<></>}</NavLink></li>
+                    <li><NavLink style={{color:location.pathname==='/project'?'cyan':'white'}} to="/project">Projects {location.pathname==='/project'?<hr/>:<></>}</NavLink></li>
                     <li><NavLink style={{color:location.pathname==='/contact'?'cyan':'white'}} to="/contact">Contact {location.pathname==='/contact'?<hr/>:<></>}</NavLink></li>
                 </ul>
                 <div className="menu">

@@ -1,9 +1,12 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./Contact.css"
 import contact from "../images/contact.png"
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  useEffect(() => {
+    document.title = "Contact - Rakesh's Portfolio";
+  }, []);
   const [formData, setFormData] = useState({
     from_name: "",
     from_email: "",
