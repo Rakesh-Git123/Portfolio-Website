@@ -17,8 +17,11 @@ const Navbar = () => {
                     <i onClick={closeMenu} className="cross fa-solid fa-xmark"></i>
                     <li><NavLink style={{color:location.pathname==='/'?'cyan':'white'}} to="/">Home {location.pathname==='/'?<hr/>:<></>}</NavLink></li>
                     <li><NavLink style={{color:location.pathname==='/about'?'cyan':'white'}} to="/about">About {location.pathname==='/about'?<hr/>:<></>}</NavLink></li>
+                    <li><NavLink style={{color:location.pathname==='/education'?'cyan':'white'}} to="/education">Education {location.pathname==='/education'?<hr/>:<></>}</NavLink></li>
                     <li><NavLink style={{color:location.pathname==='/skills'?'cyan':'white'}} to="/skills">Skills {location.pathname==='/skills'?<hr/>:<></>}</NavLink></li>
                     <li><NavLink style={{color:location.pathname==='/project'?'cyan':'white'}} to="/project">Projects {location.pathname==='/project'?<hr/>:<></>}</NavLink></li>
+                    <li><NavLink style={{color:location.pathname==='/certificate'?'cyan':'white'}} to="/certificate">Certificates{location.pathname==='/certificate'?<hr/>:<></>}</NavLink></li>
+                    <li><NavLink style={{color:location.pathname==='/achievement'?'cyan':'white'}} to="/achievement">Achievement{location.pathname==='/achievement'?<hr/>:<></>}</NavLink></li>
                     <li><NavLink style={{color:location.pathname==='/contact'?'cyan':'white'}} to="/contact">Contact {location.pathname==='/contact'?<hr/>:<></>}</NavLink></li>
                 </ul>
                 <div className="menu">

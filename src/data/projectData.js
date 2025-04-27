@@ -3,6 +3,8 @@ import image2 from "../images/project2.png"
 import image3 from "../images/project3.png"
 import image4 from "../images/project4.png"
 import image5 from "../images/project5.png"
+import image6 from "../images/project6.png"
+import image7 from "../images/project7.png"
 
 const projectData=[
     {
@@ -39,6 +41,20 @@ const projectData=[
         image:image5,
         view:"#",
         code:"https://github.com/Rakesh-Git123/Tic-Tac-Toe"
+    },
+    {
+        name:"Portfolio Builder",
+        description:"A web platform where users can create and customize their personal portfolio by adding projects, skills, education, experience, and an About Me section. Built with Laravel and Bootstrap",
+        image:image6,
+        view:"#",
+        code:"https://github.com/Rakesh-Git123/Portfolio_builder"
+    },
+    {
+        name:"Quiz Master",
+        description:"A web application built with React and PHP where users can attempt quizzes, view their scores, and compete on the leaderboard. It features real-time scoring and user authentication",
+        image:image7,
+        view:"#",
+        code:"https://github.com/Rakesh-Git123/Quiz-Application"
     },
 ]
 

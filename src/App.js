@@ -7,7 +7,10 @@ import Skills from './pages/Skills';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
-
+import { educationData } from './data/educationData';
+import Education from './pages/Education';
+import Certificates from './pages/Certificates';
+import Achievements from './pages/Achievements';
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
             <Route path="/skills" element={<Skills/>}/>
             <Route path="/project" element={<Project/>}/>
             <Route path="/contact" element={<Contact/>}/>
+            <Route path="/education" element={<Education education={educationData}/>}/>
+            <Route path='/certificate' element={<Certificates/>}/>
+            <Route path='/achievement' element={<Achievements/>}/>
           </Routes>
           <Footer/>
         </div>

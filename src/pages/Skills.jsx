@@ -99,7 +99,7 @@ const Skills = () => {
             <div className="circular-progress4 circular-progress">
               <span className="progress-value">70%</span>
             </div>
-            <span className="text">Leadership</span>
+            <span className="text">Work Ethic</span>
           </div>
          
         </div>

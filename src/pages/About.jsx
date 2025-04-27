@@ -21,8 +21,7 @@ const About = () => {
       </div>
       <div className="right">
         <p className='p1'><i class="fa-solid fa-user"></i> About <span style={{ color: "yellow" }}>Me</span></p>
-        <p className='p2'>I am Rakesh Kumar, pursuing BTech in Computer Science and Engineering from Lovely Professional University. I am      passionate about full-stack development, specializing in React, Node.js, Express, and MongoDB. I enjoy creating visually appealing and user-friendly web applications with seamless functionality.
-          I focus on understanding user needs and client requirements to deliver tailored solutions that align with brand identity. I am committed to staying updated with the latest technologies and continuously improving my skills to build impactful digital experiences.</p>
+        <p className='p2'>Pursuing a BTech in Computer Science and Engineering from Lovely Professional University, with a strong passion for full-stack development. Specializes in building dynamic and responsive web applications using React, Node.js, Express, and MongoDB. Dedicated to crafting user-friendly interfaces and seamless functionality that cater to both user needs and client goals. Focused on delivering customized solutions that reflect brand identity while ensuring optimal performance. Continuously learning and staying updated with the latest technologies to create impactful and engaging digital experiences.</p>
         <a href={Resume} download="RakeshCV.pdf">
           <button>My Resume</button>
         </a>
