@@ -125,7 +125,7 @@
 
 .Skills .mongo i{
     font-size: 20px;
-    color: grey;
+    color: green;
 }
 .Skills .mongo .text-perc{
     display: flex;
@@ -139,6 +139,39 @@
     width: 75%;
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     animation: mongo 1s;
+}
+.Skills .sql i{
+    font-size: 20px;
+    color: grey;
+}
+.Skills .sql .text-perc{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    animation: mongo 1s;
+}
+
+.Skills .sql .crossbar-child{
+    height: 100%;
+    width: 70%;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    animation: css 1s;
+}
+.Skills .github i{
+    font-size: 20px;
+}
+.Skills .github .text-perc{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    animation: mongo 1s;
+}
+
+.Skills .github .crossbar-child{
+    height: 100%;
+    width: 65%;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    animation: node 1s;
 }
 .Skills .java i{
     font-size: 20px;

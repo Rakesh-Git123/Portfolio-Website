@@ -10,7 +10,7 @@ const achievementData = [
     image: img1,
     title: 'Problem Solver - 140+ Problems on LeetCode & GFG',
     description: 'Successfully solved 140+ problems on platforms like LeetCode and GeeksforGeeks, improving problem-solving skills and algorithms knowledge.',
-    date: '2024',
+    date: '2025',
 
   },
 
@@ -18,19 +18,19 @@ const achievementData = [
     image: img2,
     title: 'Volunteer - NGO God’s Plan',
     description: 'Volunteered with the NGO God’s Plan and received a recognition certificate for contributions to community development.',
-    date: '2024',
+    date: '2023',
   },
   {
     image: img3,
     title: 'NPTEL Cloud Computing Exam - Elite Ranking',
-    description: 'Achieved Elite ranking with a score of 68% in the NPTEL Cloud Computing examination, showcasing strong understanding of cloud technologies and concepts.',
+    description: 'Achieved Elite ranking with a score of 63% in the NPTEL Cloud Computing examination, showcasing strong understanding of cloud technologies and concepts.',
     date: '2024',
   },
   {
     image: img4,
     title: 'Academic Excellence - CGPA 8.6/10',
     description: 'Maintained a CGPA of 8.6/10 throughout my academic career, reflecting consistent performance and dedication to studies.',
-    date: '2024',
+    date: '2025',
   },
 ];
 

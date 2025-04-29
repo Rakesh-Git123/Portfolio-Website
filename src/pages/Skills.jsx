@@ -55,10 +55,28 @@ const Skills = () => {
           </div>
 
           <div className="mongo tech">
-            <i class="fa-solid fa-database"></i>
+          <i class='bx bxl-mongodb'></i>
             <div className="text-perc">
               <p className='text'>MongoDB</p>
               <p className='perc'>75%</p>
+            </div>
+            <div className='crossbar'><div className='crossbar-child'></div></div>
+          </div>
+
+          <div className="sql tech">
+            <i class="fa-solid fa-database"></i>
+            <div className="text-perc">
+              <p className='text'>MySQL</p>
+              <p className='perc'>70%</p>
+            </div>
+            <div className='crossbar'><div className='crossbar-child'></div></div>
+          </div>
+
+          <div className="github tech">
+          <i class='bx bxl-github'></i>
+            <div className="text-perc">
+              <p className='text'>Github</p>
+              <p className='perc'>65%</p>
             </div>
             <div className='crossbar'><div className='crossbar-child'></div></div>
           </div>

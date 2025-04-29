@@ -28,8 +28,8 @@ const Home=()=>{
                         <p className="about3">As a passionate Web developer, I thrive on creating beautiful and <br />
                             intuitive websites that delight users</p>
                         <div className="contacts">
-                            <a href="#"><i className="fa-brands fa-whatsapp"></i></a>
-                            <a href="#"><i className="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/rakeshkumar156/"><i className="fa-brands fa-whatsapp"></i></a>
+                            <a href="https://www.linkedin.com/in/rakeshkumar156/"><i className="fa-brands fa-facebook"></i></a>
                             <a href="https://www.linkedin.com/in/rakeshkumar156/"><i className="fa-brands fa-linkedin"></i></a>
                             <a href="https://github.com/Rakesh-Git123"><i className="fa-brands fa-github"></i></a>
                         </div>
