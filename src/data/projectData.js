@@ -16,7 +16,7 @@ const projectData=[
         code: "https://github.com/Rakesh-Git123/MockMate"
     },
     {
-        name: "Blog Website",
+        name: "BlogVerse",
         description: "A full-stack blog app using MERN with JWT auth, image uploads, comments, likes, AI-based summary & translation using Gemini API.",
         image: image1,
         view: "https://blogverseblogs.netlify.app/",
