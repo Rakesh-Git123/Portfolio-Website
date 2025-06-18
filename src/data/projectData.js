@@ -5,14 +5,22 @@ import image4 from "../images/project4.png"
 import image5 from "../images/project5.png"
 import image6 from "../images/project6.png"
 import image7 from "../images/project7.png"
+import image8 from "../images/project8.png"
 
 const projectData=[
     {
-        name:"Blog Website",
-        description:"This is a  blog website, built with React, Express, Node.js, and MongoDB, allows users to create, read, update, and delete blog posts with images, comments, and authentication features",
-        image:image1,
-        view:"#",
-        code:"#"
+        name: "MockMate",
+        description: "AI-powered mock interview platform with Google login, voice-to-text answers, AI feedback, and resume scoring using Gemini API.",
+        image: image8,
+        view: "http://mockmatepro.netlify.app/",
+        code: "https://github.com/Rakesh-Git123/MockMate"
+    },
+    {
+        name: "Blog Website",
+        description: "A full-stack blog app using MERN with JWT auth, image uploads, comments, likes, AI-based summary & translation using Gemini API.",
+        image: image1,
+        view: "https://blogverseblogs.netlify.app/",
+        code: "https://github.com/Rakesh-Git123/BlogVerse"
     },
     {
         name:"Portfolio Builder",
